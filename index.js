@@ -17,6 +17,8 @@ import OutcomeRevealView from './src/screens/OutcomeRevealView';
 import { createStackNavigator,createAppContainer } from 'react-navigation';
 // global.__DEV__=false;
 // global.__DEV__=false;
+// global.__DEV__=false;
+// global.__DEV__=false;
 const RootStack = createStackNavigator({
   InputOutcome: {screen: InputOutComeView, navigationOptions:{header:null, gesturesEnabled: false}},
   Loading: {screen: LoadingView, navigationOptions:{header:null,gesturesEnabled: false}},
