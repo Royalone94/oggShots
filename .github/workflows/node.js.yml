@@ -47,4 +47,4 @@ jobs:
           ${{ runner.os }}-gradle-caches-
           
     - name: Build Debug APK
-      run: bash ./android/gradlew :app:assembleDebug
+      run: bash ./android/gradlew assembleDebug
