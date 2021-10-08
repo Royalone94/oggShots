@@ -33,7 +33,6 @@ jobs:
     - name: Install node modules
       run: |
         yarn install
-    - run: npm test
     
     - name: Cache Gradle Wrapper
       uses: actions/cache@v2
